@@ -12,3 +12,4 @@ function sumZ(){
     let rez = (z + z1)/2;
     console.log(rez);
 }
+
