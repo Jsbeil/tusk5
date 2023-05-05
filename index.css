@@ -1,0 +1,13 @@
+.block{
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    border: solid 1px black;
+}
+.imgblock{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
