@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+.block{
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    border: solid 1px black;
+}
+.card{
+    width: 280px;
+    height: 691px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+
+    background-color: white;
+    
+}
+.img-card{
+    width: 280px;
+    height: 420px;
+    position: relative;
+    z-index: 0;
+}
+.img-card-two{
+    position: absolute;
+    top: 43%;
+    left: 18px;
+
+    opacity: 0.8;
+    
+}
+.life{
+    font-size: 14px;
+    font-weight: regular;
+    text-align: center;
+    color: #616161;
+}
+.price-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discount{
+    margin-left: 15px;
+    color: #868282;
+    text-decoration: line-through;
+    font-size: 20px;
+
+}
+.buy{
+    width: 248px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+
+    margin-left: 14px;
+
+    font-size: 30px;
+
+    color: white;
+
+    border: none;
+
+    background: linear-gradient(90deg, rgba(255,185,1,1) 0%, rgba(255,148,0,1) 100%);
+
+    font-family: 'Oswald', sans-serif;
+
+    box-shadow: 5px 9px 5px -4px rgba(34, 60, 80, 0.2);
+}
+.buy::before{
+    content: "";
+    position: absolute;
+    left: 34px;
+    top: 58px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255,185,1,1);
+}
+.buy::after{
+    content: "";
+    position: absolute;
+    left: 63px;
+    top: 61px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255,185,1,1);
+}
+.ssss{
+    transform: scaleX(-1);
+    color: white;
+    font-size: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.buy-text{
+    margin-top: 10px;
+
+    letter-spacing: 0.2em;
+}
+
+.rating {
+    display: inline-block;
+    position: relative;
+  }
+.rating::before {
+    content: "\2605\2605\2605\2605\2605"; /* пятизвездочный рейтинг */
+    color: #e6b800; /* цвет звездочек */
+  }
+  .rating[data-rating="4"]::before {
+    content: "\2605\2605\2605\2605\2606"; /* четыре звездочки и одна без */
+    font-size: 40px;
+  }
+  .rating[data-rating="5"]::before {
+    content: "\2605\2605\2605\2605\2606"; /* четыре звездочки и одна без */
+  }
+
+h1{
+    margin:0;
+}
+h2{
+    margin: 0;
+}
+h3{
+    margin: 0;
+
+}
